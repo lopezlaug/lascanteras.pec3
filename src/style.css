@@ -1,0 +1,588 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/open-sans-v34-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/open-sans-v34-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/open-sans-v34-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/open-sans-v34-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/open-sans-v34-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/open-sans-v34-latin-regular.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* open-sans-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("./fonts/open-sans-v34-latin-italic.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/open-sans-v34-latin-italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/open-sans-v34-latin-italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/open-sans-v34-latin-italic.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/open-sans-v34-latin-italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/open-sans-v34-latin-italic.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* open-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/open-sans-v34-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/open-sans-v34-latin-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/open-sans-v34-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/open-sans-v34-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/open-sans-v34-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/open-sans-v34-latin-500.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/open-sans-v34-latin-600.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/open-sans-v34-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/open-sans-v34-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/open-sans-v34-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/open-sans-v34-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/open-sans-v34-latin-600.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/open-sans-v34-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/open-sans-v34-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/open-sans-v34-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/open-sans-v34-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/open-sans-v34-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/open-sans-v34-latin-700.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+/* open-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/open-sans-v34-latin-800.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/open-sans-v34-latin-800.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/open-sans-v34-latin-800.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/open-sans-v34-latin-800.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/open-sans-v34-latin-800.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/open-sans-v34-latin-800.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+
+/* source-serif-pro-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/source-serif-pro-v15-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/source-serif-pro-v15-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/source-serif-pro-v15-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./fonts/source-serif-pro-v15-latin-700.woff") format("woff"),
+    /* Modern Browsers */ url("./fonts/source-serif-pro-v15-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/source-serif-pro-v15-latin-700.svg#SourceSerifPro")
+      format("svg"); /* Legacy iOS */
+}
+/* source-serif-pro-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/source-serif-pro-v15-latin-900.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/source-serif-pro-v15-latin-900.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/source-serif-pro-v15-latin-900.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./fonts/source-serif-pro-v15-latin-900.woff") format("woff"),
+    /* Modern Browsers */ url("./fonts/source-serif-pro-v15-latin-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/source-serif-pro-v15-latin-900.svg#SourceSerifPro")
+      format("svg"); /* Legacy iOS */
+}
+
+/* yellowtail-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/yellowtail-v18-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/yellowtail-v18-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/yellowtail-v18-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/yellowtail-v18-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/yellowtail-v18-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/yellowtail-v18-latin-regular.svg#Yellowtail") format("svg"); /* Legacy iOS */
+}
+
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  display: flex;
+  max-width: 1100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: end;
+}
+
+.ilogo {
+  max-width: 60px;
+}
+
+.logotext {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 22px;
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.yellowtail {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
+  display: flex;
+  list-style-type: none;
+  text-align: right;
+
+  align-items: center;
+  margin-right: 0px;
+}
+
+/*.menu > li:last-child {
+    margin-right: 0px;
+}*/
+
+.menu > li {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.menu a:link,
+.menu a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: rgb(223, 113, 27);
+  text-decoration: none;
+}
+
+#activo {
+  color: rgb(24, 69, 199);
+  text-decoration: none;
+}
+
+/* Swiper */
+.swiper-container {
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.swiper-container img {
+  display: block;
+  width: 100%;
+}
+
+/* Sect Categorias Index */
+.h2center {
+  text-align: center;
+  line-height: 8px;
+  margin: 30px;
+}
+
+.link {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.link a:link,
+.link a:visited {
+  color: rgb(24, 69, 199);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.link a:hover {
+  color: rgb(223, 113, 27);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.categorias {
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  padding: 40px;
+}
+
+.section-a,
+.section-b {
+  max-width: 400px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.categoimg {
+  max-width: 400px;
+  max-height: 600px;
+}
+
+/* -----Catlista-------*/
+
+.cat {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column1 {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.column2 {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.imglist {
+  max-width: 380px;
+}
+
+/* -----Presentación------- */
+
+.presentacion > h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.presentacion > p {
+  font-size: 12px;
+}
+
+.video,
+figcaption {
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+/* -----Referencias------- */
+
+.referencias {
+  background-color: rgb(242, 242, 242);
+  height: 550px;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.referencias > h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.referencias,
+.reflist > p {
+  font-size: 12px;
+}
+
+.ref {
+  text-decoration: none;
+  color: rgb(24, 69, 199);
+  font-size: 12px;
+}
+
+/* -----Zonas------- */
+.breadcrumbs {
+  font-size: 10px;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.bread {
+  color: black;
+}
+
+.zonas > h2 {
+  text-align: center;
+}
+
+.zonas > p,
+div {
+  font-size: 12px;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+.sectimgderech {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secttext {
+  width: 60%;
+  box-sizing: border-box;
+}
+
+.sectimg {
+  width: 40%;
+  box-sizing: border-box;
+  align-items: end;
+}
+
+.imgzonas {
+  max-width: 350px;
+  margin-left: 20px;
+}
+
+.sectimgizq {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgzonasizq {
+  max-width: 350px;
+  margin-right: 20px;
+}
+
+/* -----Deportefav------- */
+
+.deportefav > h2 {
+  text-align: center;
+}
+
+/* -----Footer------- */
+footer {
+  background-color: rgb(24, 69, 199);
+  color: rgb(255, 255, 255);
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.containerf {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: "Open Sans";
+  display: flex;
+  justify-content: space-between;
+}
+
+.logotextf {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.yellowtailf {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.foottext {
+  color: white;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: right;
+}
+
+.foottext a:link,
+.foottext a:visited {
+  color: white;
+}
+
+.foottext a:hover {
+  color: rgb(223, 113, 27);
+  text-decoration: none;
+}
+
+/* -------------Tamaños Dispositivos----------------------------------------------------------- */
+
+@media screen and (max-width: 970px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+  .container {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    display: block;
+    text-align: center;
+    align-items: baseline
+  }
+
+  .ilogo{
+    align-items:;
+  }
+
+  .menu {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 4px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  /* -------------Index970---- */
+ 
+
+  .hero {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 28px;
+  }
+
+  .mujeres {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 30; */
+    padding: 0;
+  }
+
+  .mujeres > li {
+    text-decoration: none;
+    font-size: 12px;
+    width: 50%;
+    box-sizing: border-box;
+    flex: initial;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .mujeres > li:first-child {
+    padding-left: 0px;
+  }
+
+  .mujeres > li:last-child {
+    padding-right: 0px;
+  }
+
+  .mujeres > li > img {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .mujername {
+    font-weight: 800;
+    font-size: 14px;
+    color: rgb(93, 95, 121);
+    text-decoration: none;
+    margin-top: 4px;
+  }
+
+  /* ------------- -Index 680 --------------- */
+  @media screen and (max-width: 680px) {
+  header {
+    display: block;
+    text-align: center;
+  }
