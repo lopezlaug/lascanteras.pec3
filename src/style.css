@@ -223,9 +223,9 @@ header {
   margin-right: 0px;
 }
 
-/*.menu > li:last-child {
-    margin-right: 0px;
-}*/
+.menu > li:last-child {
+  margin-right: 0px;
+}
 
 .menu > li {
   margin: 20px;
@@ -252,11 +252,21 @@ header {
 .swiper-container {
   overflow: hidden;
   margin-top: 30px;
+  position: relative;
 }
 
 .swiper-container img {
   display: block;
   width: 100%;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: blueviolet;
+}
+
+.swiper-pagination-bullet-active {
+  background: violet !important;
 }
 
 /* Sect Categorias Index */
@@ -289,12 +299,15 @@ header {
   display: flex;
   justify-content: space-between;
   max-width: 1100px;
-  padding: 40px;
+  padding: 30px;
 }
 
 .section-a,
 .section-b {
   max-width: 400px;
+  width: 100%;
+  display: block;
+  padding: 10px;
   font-size: 14px;
   line-height: 18px;
 }
@@ -495,6 +508,7 @@ footer {
     display: block;
     text-align: center;
   }
+
   .container {
     max-width: 650px;
     display: flex;
@@ -502,13 +516,12 @@ footer {
   }
 
   .logo {
-    display: block;
-    text-align: center;
-    align-items: baseline
+    align-items: center;
+    justify-content: center;
   }
 
-  .ilogo{
-    align-items:;
+  .logotext {
+    text-align: left;
   }
 
   .menu {
@@ -519,70 +532,30 @@ footer {
     font-size: 14px;
     font-weight: 700;
   }
+
+  .menu > li:last-child {
+    margin-right: 20px;
+  }
+
+  .containerf {
+    max-width: 650px;
+  }
+
+  .foottext {
+    font-size: 8px;
+  }
   /* -------------Index970---- */
- 
-
-  .hero {
-    width: auto;
-  }
-
-  h1 {
-    text-align: center;
-    font-size: 26px;
-    font-weight: 800;
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 22px;
-    font-weight: 800;
-    line-height: 28px;
-  }
-
-  .mujeres {
-    display: flex;
-    list-style-type: none;
-    text-decoration: none;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* margin: 30; */
-    padding: 0;
-  }
-
-  .mujeres > li {
-    text-decoration: none;
-    font-size: 12px;
-    width: 50%;
-    box-sizing: border-box;
-    flex: initial;
-    text-align: left;
-    padding: 5px;
-  }
-
-  .mujeres > li:first-child {
-    padding-left: 0px;
-  }
-
-  .mujeres > li:last-child {
-    padding-right: 0px;
-  }
-
-  .mujeres > li > img {
-    margin-bottom: 10px;
+  .categoimg {
     width: 100%;
+    height: 60%;
+    object-fit: cover;
   }
+}
 
-  .mujername {
-    font-weight: 800;
-    font-size: 14px;
-    color: rgb(93, 95, 121);
-    text-decoration: none;
-    margin-top: 4px;
-  }
-
-  /* ------------- -Index 680 --------------- */
-  @media screen and (max-width: 680px) {
+/* ------------- -Index 680 --------------- */
+@media screen and (max-width: 680px) {
   header {
     display: block;
     text-align: center;
   }
+}
