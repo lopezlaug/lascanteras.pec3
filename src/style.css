@@ -258,6 +258,8 @@ header {
 .swiper-container img {
   display: block;
   width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
 
 .swiper-button-next:after,
@@ -281,14 +283,13 @@ header {
   text-decoration: none;
 }
 
-.link a:link,
-.link a:visited {
+.link:visited {
   color: rgb(24, 69, 199);
   text-decoration: none;
   font-size: 12px;
 }
 
-.link a:hover {
+.link:hover {
   color: rgb(223, 113, 27);
   text-decoration: none;
   font-size: 12px;
@@ -314,7 +315,6 @@ header {
 
 .categoimg {
   max-width: 400px;
-  max-height: 600px;
 }
 
 /* -----Catlista-------*/
@@ -410,6 +410,7 @@ div {
   margin-left: auto;
   margin-right: auto;
   max-width: 500px;
+  width: 100%;
 }
 
 .sectimgderech {
@@ -544,11 +545,38 @@ footer {
   .foottext {
     font-size: 8px;
   }
-  /* -------------Index970---- */
+  /* -------------Index970----------- */
+  .swiper-container img {
+    height: 400px;
+  }
+
   .categoimg {
     width: 100%;
     height: 60%;
     object-fit: cover;
+  }
+
+  .categorias > p {
+    font-size: 10px;
+  }
+
+  /* -------------Categorias970---- */
+
+  .sectimgderech {
+    display: block;
+  }
+
+  .secttext {
+    width: auto;
+  }
+
+  .imgzonas {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  .sectimg {
+    width: auto;
   }
 }
 
@@ -557,5 +585,32 @@ footer {
   header {
     display: block;
     text-align: center;
+  }
+
+  .categorias {
+    display: block;
+  }
+
+  .section-a,
+  .section-b {
+    max-width: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .categoimg {
+    max-width: none;
+  }
+
+  .containerf {
+    display: block;
+  }
+
+  .foottext {
+    text-align: center;
+  }
+
+  .sectimgizq {
+    display: block;
   }
 }
