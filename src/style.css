@@ -264,11 +264,11 @@ header {
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  color: blueviolet;
+  color: rgb(24, 69, 199);
 }
 
 .swiper-pagination-bullet-active {
-  background: violet !important;
+  background: rgb(24, 69, 199) !important;
 }
 
 /* Sect Categorias Index */
@@ -301,6 +301,7 @@ header {
   justify-content: space-between;
   max-width: 1100px;
   padding: 30px;
+  padding-bottom: 80px;
 }
 
 .section-a,
@@ -314,7 +315,9 @@ header {
 }
 
 .categoimg {
-  max-width: 400px;
+  max-width: 100%;
+  height: 80%;
+  object-fit: cover;
 }
 
 /* -----Catlista-------*/
@@ -342,6 +345,10 @@ header {
 }
 
 /* -----Presentación------- */
+.presentacion {
+  display: block;
+  text-align: center;
+}
 
 .presentacion > h2 {
   text-align: center;
@@ -350,10 +357,18 @@ header {
 
 .presentacion > p {
   font-size: 12px;
+  text-align: left;
+}
+
+.presentimg {
+  width: 60%;
+  height: 30%;
+  object-fit: contain;
 }
 
 .video,
 figcaption {
+  display: block;
   align-items: center;
   text-align: center;
   font-size: 10px;
@@ -560,23 +575,61 @@ footer {
     font-size: 10px;
   }
 
-  /* -------------Categorias970---- */
+  /* -------------zonas970---- */
 
   .sectimgderech {
     display: block;
+  }
+
+  .sectimgizq {
+    display: block;
+    width: 100%;
   }
 
   .secttext {
     width: auto;
   }
 
-  .imgzonas {
+  .imgzonas,
+  .imgzonasizq {
     max-width: 100%;
     margin-left: 0px;
   }
 
   .sectimg {
     width: auto;
+  }
+
+  /* -------------Categorias970---- */
+  .cat {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .categorias {
+    padding-bottom: 40px;
+  }
+
+  .column1,
+  .column2 {
+    width: 100%;
+  }
+
+  .imglist {
+    width: 100%;
+  }
+
+  /* -------------presentacion970---- */
+  .presentacion {
+    max-width: 650px;
+  }
+
+  /* -------------referencias970---- */
+  .referencias,
+  .reflist,
+  .ref {
+    max-width: 650px;
   }
 }
 
@@ -608,9 +661,5 @@ footer {
 
   .foottext {
     text-align: center;
-  }
-
-  .sectimgizq {
-    display: block;
   }
 }
