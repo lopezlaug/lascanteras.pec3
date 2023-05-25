@@ -20,4 +20,11 @@ const swiper = new Swiper(".swiper-container", {
   },
 });
 
+window.setInterval(() => {
+  const animacion = document.querySelector("#animacioncss");
+  if (animacion) {
+    animacion.classList.toggle("fin");
+  }
+}, 3000);
+
 //console.log(Swiper)

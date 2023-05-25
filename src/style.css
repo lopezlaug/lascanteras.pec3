@@ -187,7 +187,12 @@ header {
 }
 
 .ilogo {
-  max-width: 60px;
+  width: 60px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ilogo:hover {
+  transform: rotate(180deg);
 }
 
 .logotext {
@@ -260,6 +265,7 @@ header {
   width: 100%;
   height: 500px;
   object-fit: cover;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
 
 .swiper-button-next:after,
@@ -373,6 +379,31 @@ figcaption {
   text-align: center;
   font-size: 10px;
   margin-top: 10px;
+}
+
+#animacioncss {
+  width: 130px;
+  margin: 0 auto;
+}
+
+#animacioncss svg {
+  width: 100%;
+}
+
+#animacioncss.fin .path-1 {
+  stroke-dashoffset: 0;
+}
+
+.path {
+  fill: none;
+  stroke-width: 18px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.path-1 {
+  stroke-dasharray: 1850 2000;
+  stroke-dashoffset: 1851;
+  transition: 5s linear;
 }
 
 /* -----Referencias------- */
@@ -633,7 +664,7 @@ footer {
   }
 }
 
-/* ------------- -Index 680 --------------- */
+/* ------------- -Index 680 ----------------------------------------------- */
 @media screen and (max-width: 680px) {
   header {
     display: block;
@@ -661,5 +692,10 @@ footer {
 
   .foottext {
     text-align: center;
+  }
+
+  #animacioncss {
+    width: 100px;
+    margin: 0 auto;
   }
 }
