@@ -25,6 +25,6 @@ window.setInterval(() => {
   if (animacion) {
     animacion.classList.toggle("fin");
   }
-}, 3000);
+}, 2500);
 
 //console.log(Swiper)

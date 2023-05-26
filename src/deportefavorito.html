@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg" href="./logo/sol.svg"/>
     <title>Práctica tu deporte favorito</title>
     <script src="./main.js" type="module"></script>
   </head>
@@ -15,7 +16,7 @@
           <a  href="index.html">
             <img
               class="ilogo"
-              src="img/logo-sol.png"
+              src="logo/sol.svg"
               alt="Logo del sitio Las Canteras. Playa Urbana"
             /></a>
             <a href="index.html" class="logotext">Las Canteras</br>
@@ -55,9 +56,15 @@ tabla y únete a la gran cantidad de surfistas que practican el deporte en esta 
      </p>
      </div>
      <div class="sectimg">
-     <img src="img/surf.jpg"
+     <!-- <img src="img/surf.jpg"
           alt="Surifsta surfeando en la playa"
-          class="imgzonas"/>
+          class="imgzonas"/> -->
+    <picture>
+    <source media="(max-width: 799px)" srcset="img/surf-crop.jpg?as=webp&width=799" type="image/webp" />
+    <source media="(min-width: 800px)" srcset="img/surf.jpg?as=webp" type="image/webp" />
+    <img src="img/surf.jpg?width=900" alt="Surifsta surfeando la ola" class="imgzonas" />
+    </picture>
+          
     </div>
     </div>
 
@@ -102,10 +109,17 @@ tabla y únete a la gran cantidad de surfistas que practican el deporte en esta 
     tienes la oportunidad de ver el espectáculo natural que ofrece la fauna acuática.    
      </p>
      </div>
-     <div class="sectimg">
+     <!-- <div class="sectimg">
      <img src="img/kayak.jpg"
-          alt="Playa grande y la puntilla"
-          class="imgzonas"/>
+          alt="Chico practicando kayak"
+          class="imgzonas"/> -->
+
+    <picture>
+    <source media="(max-width: 999px)" srcset="img/kayak-crop.jpg?as=webp&width=799" type="image/webp" />
+    <source media="(min-width: 1000px)" srcset="img/kayak.jpg?as=webp" type="image/webp" />
+    <img src="img/kayak.jpg?width=900" alt="Surifsta surfeando la ola" class="imgzonas" />
+    </picture>
+
     </div>
     </div>
 
@@ -152,8 +166,8 @@ tabla y únete a la gran cantidad de surfistas que practican el deporte en esta 
 
          <div class="section-b">
           <img
-            src="img/playa_de_las_canteras-gran_canaria_6.jpg"
-            alt="Panorámica de la playa"
+            src="img/zonas-planta.jpg"
+            alt="Vista aérea de la playa"
             class="categoimg"
           />
           <h3>La playa por zonas</h3>
@@ -173,12 +187,20 @@ tabla y únete a la gran cantidad de surfistas que practican el deporte en esta 
           <a  href="index.html">
             <img
               class="ilogo"
-              src="img/logo-sol.png"
+              src="logo/sol - white.svg"
               alt="Logo del sitio Las Canteras. Playa Urbana"
             /></a>
             <a href="index.html" class="logotextf">Las Canteras </br>
             <span class="yellowtailf">Playa Urbana</span></a>
         </div>
+
+        <div class="menufooter">
+         <ul>
+            <li><a href="./categorias.html">CATEGORIAS</a></li>
+            <li><a href="./presentacion.html">PRESENTACION</a></li>
+            <li><a href="./referencias.html">REFERENCIAS</a></li>
+          </ul>
+      </div>
 
         
       <div class="foottext">

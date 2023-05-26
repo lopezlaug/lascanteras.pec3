@@ -39,17 +39,28 @@
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide">
-            <img src="img/puntilla.jpeg" />
+            <!-- <img src="img/puntilla.jpeg" /> -->
+            <picture>
+            <source media="(max-width: 799px)" srcset="img/puntilla.jpeg?as=webp&width=799" type="image/webp" />
+            <source media="(min-width: 800px)" srcset="img/puntilla.jpeg?as=webp" type="image/webp" />
+            <img src="img/puntilla.jpeg?width=900" alt="Panorámica de la playa"/>
+            </picture>
           </div>
           <div class="swiper-slide">
-            <img
-              src="img/slide2.jpg"
-            />
+            <!-- <img src="img/slide2.jpg"/> -->
+            <picture>
+            <source media="(max-width: 799px)" srcset="img/slide2.jpg?as=webp&width=799" type="image/webp" />
+            <source media="(min-width: 800px)" srcset="img/slide2.jpg?as=webp" type="image/webp" />
+            <img src="img/slide2.jpg?width=900" alt="surfistas en la playa con atardecer"/>
+            </picture>
           </div>
           <div class="swiper-slide">
-            <img
-              src="img/slide3.jpg"
-            />
+            <!-- <img src="img/slide3.jpg"/> -->
+            <picture>
+            <source media="(max-width: 799px)" srcset="img/slide3.jpg?as=webp&width=799" type="image/webp" />
+            <source media="(min-width: 800px)" srcset="img/slide3.jpg?as=webp" type="image/webp" />
+            <img src="img/slide3.jpg?width=900" alt="surfistas en la playa con atardecer"/>
+            </picture>
           </div>
         </div>
         <!-- If we need pagination -->
@@ -79,10 +90,13 @@
       <div class="categorias">
       <div class="section-a">
           <img
-            src="img/playa_de_las_canteras-gran_canaria_6.jpg"
-            alt="Panorámica de la playa"
+            src="img/zonas-planta.jpg"
+            alt="Vista aérea de la playa"
             class="categoimg"
           />
+          
+
+
           <h3>La playa por zonas</h3>
           <p>Conoce las distintas áreas de las canteras y las oportunidades que 
             ofrecen.</p>
@@ -91,11 +105,11 @@
 
       <div class="section-b">
           <img
-            src="img/playa_de_las_canteras-gran_canaria_0.jpg"
-            alt="Pareja practicando paddle"
+            src="img/surf-crop.jpg"
+            alt="Surfista surfeando la ola"
             class="categoimg"
           />
-          <h3>Práctica tu deporte favorito</h3>
+          <h3>Práctica tu deporte acuático favorito</h3>
           <p>Elige tu deportes acuático favorito dentro de una gran variedad.</p>
           <a class="link" href="./deportefavorito.html">Leer más</a>
           
@@ -110,7 +124,7 @@
           <a  href="index.html">
             <img
               class="ilogo"
-              src="logo/blanco_100dpi.webp"
+              src="logo/sol - white.svg"
               alt="Logo del sitio Las Canteras. Playa Urbana"
             /></a>
             <a href="index.html" class="logotextf">Las Canteras </br>

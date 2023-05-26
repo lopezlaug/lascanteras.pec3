@@ -1,14 +1,11 @@
-<svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve">
-  <circle class="circle" fill="none" stroke="#252223" stroke-width="3.5" stroke-miterlimit="8" cx="21.7" cy="21.5" r="9"/>
-  
-  
-  <line class="ray"  stroke-linecap="round" fill="none" stroke="#252223" stroke-width="3" stroke-miterlimit="4" x1="21.7" y1="6.3" x2="21.7" y2="0"/>  
-   <line class="ray"  stroke-linecap="round" fill="none" stroke="#252223" stroke-width="3" stroke-miterlimit="6" x1="37" y1="6.4" x2="32.5" y2="10.8"/>
-  <line class="ray"  stroke-linecap="round" fill="none" stroke="#252223" stroke-width="3" stroke-miterlimit="6" x1="21.7" y1="43.4" x2="21.7" y2="37"/>
-  <line class="ray"  stroke-linecap="round" fill="none" stroke="#252223" stroke-width="3" stroke-miterlimit="6" x1="6.3" y1="21.7" x2="0" y2="21.7"/>
-  <line class="ray"  stroke-linecap="round" fill="none" stroke="#252223" stroke-width="3" stroke-miterlimit="6" x1="43.4" y1="21.7" x2="37" y2="21.7"/>
-  <line class="ray"  stroke-linecap="round" fill="none" stroke="#252223" stroke-width="3" stroke-miterlimit="6" x1="10.8" y1="10.8" x2="6.4" y2="6.4"/>
-  <line class="ray"  stroke-linecap="round" fill="none" stroke="#252223" stroke-width="3" stroke-miterlimit="6" x1="37" y1="37" x2="32.5" y2="32.5"/>
-  <line class="ray"  stroke-linecap="round" fill="none" stroke="#252223" stroke-width="3" stroke-miterlimit="6" x1="10.8" y1="32.5" x2="6.4" y2="37"/>
-  
-</svg>
+<svg height="100" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" >
+      <circle cx="50" cy="50" r="18" fill="none" stroke="#252223" stroke-width="5" />
+      <line fill="none" stroke="#252223" stroke-width="5" stroke-linecap="round" x1="14" y1="14" x2="27" y2="27" />
+      <line fill="none" stroke="#252223" stroke-width="5" stroke-linecap="round" x1="75" y1="75" x2="88" y2="88" />
+      <line fill="none" stroke="#252223" stroke-width="5" stroke-linecap="round" x1="12" y1="89" x2="27" y2="75" />
+      <line fill="none" stroke="#252223" stroke-width="5" stroke-linecap="round" x1="88" y1="11" x2="73" y2="27" />
+      <line fill="none" stroke="#252223" stroke-width="5" stroke-linecap="round" x1="50" y1="" x2="50" y2="20" />
+      <line fill="none" stroke="#252223" stroke-width="5" stroke-linecap="round" x1="50" y1="80" x2="50" y2="98" />
+      <line fill="none" stroke="#252223" stroke-width="5" stroke-linecap="round" x1="0" y1="50" x2="20" y2="50" />
+      <line fill="none" stroke="#252223" stroke-width="5" stroke-linecap="round" x1="80" y1="50" x2="100" y2="50" />
+    </svg>
