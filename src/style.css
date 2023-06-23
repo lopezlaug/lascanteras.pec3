@@ -498,15 +498,6 @@ footer {
     text-align: left;
   }
 
-  .ilogo {
-    width: 60px;
-    transition: none;
-  }
-
-  .ilogo:hover {
-    transform: none;
-  }
-
   .menu {
     display: block;
     margin: 0 auto;
