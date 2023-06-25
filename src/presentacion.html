@@ -41,9 +41,13 @@
     pueden disfrutar de ella en cualquier época del año gracias a la benignidad del clima.
       </p>
 
-      <img src="img/noelsurfista.jpg"
-        alt="Surfista vestido de papa noel"
-        class="presentimg">
+      <picture>
+            <source media="(max-width: 799px)" srcset="img/noelsurfista.jpg?as=webp&width=500" type="image/webp" />
+            <source media="(min-width: 800px)" srcset="img/noelsurfista.jpg?as=webp" type="image/webp" />
+            <img src="img/noelsurfista.jpg?width=850"
+              alt="Surfista vestido de papa noel"
+              class="presentimg">
+      </picture>
 
        <figcaption> Surfista vestido de papa noel -  Foto por Tony Hernandez </figcaption>
       
@@ -64,10 +68,13 @@
     a esta práctica, ya abandonada, pervive hoy el nombre de playa de Las Canteras.
     La barra puede alcanzarse a nado desde la orilla cuando la marea está baja e incluso caminar por ella. </p>
     
-    <img src="img/labarra.jpg"
-        alt="Bañistas nadando hasta la barra"
-        loading="lazy"
-        class="presentimg">
+    <picture>
+            <img src="img/labarra.jpg?as=webp&width=500"
+                alt="Bañistas nadando hasta la barra"
+                loading="lazy"
+                type="image/webp"
+                class="presentimg">
+    </picture>
 
        <figcaption> Bañistas nadando hasta la barra </figcaption>
     
@@ -76,8 +83,17 @@
     estudios impartido por la UOC.</p>
 
     <figure class="video">
-    <iframe width="280" height="200" loading="lazy" src="https://www.youtube.com/embed/3usdjPQsOiY" title="YouTube video player"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe 
+      width="380" 
+      height="300" 
+      loading="lazy" 
+      src="https://www.youtube.com/embed/3usdjPQsOiY" 
+      title="YouTube video player"
+      frameborder="0" 
+      allow="autoplay; encrypted-media" 
+      async
+      allowfullscreen>
+    </iframe>
 
     <figcaption>Playa de Las Canteras - Vídeo por Gino Maccanti</figcaption>
     </figure>

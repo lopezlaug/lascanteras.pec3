@@ -196,9 +196,11 @@ header {
 
 /* Sect Categorias Index */
 .h2center {
-  text-align: center;
+  text-align: left;
   line-height: 8px;
-  margin: 30px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  /* margin: 30px; */
 }
 
 .link {
