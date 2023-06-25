@@ -277,7 +277,6 @@ header {
 
 .presentacion > h2 {
   text-align: center;
-  margin-top: 20px;
 }
 
 .presentacion > p {
@@ -315,9 +314,9 @@ figcaption {
 
 .path {
   fill: none;
-  stroke-width: 18px;
+  /* stroke-width: 18px;
   stroke-linecap: round;
-  stroke-linejoin: round;
+  stroke-linejoin: round; */
 }
 .path-1 {
   stroke-dasharray: 1850 2000;
