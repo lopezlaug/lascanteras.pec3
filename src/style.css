@@ -290,38 +290,9 @@ header {
   object-fit: contain;
 }
 
-.video,
 figcaption {
-  display: block;
-  align-items: center;
-  text-align: center;
-  font-size: 10px;
-  margin-top: 10px;
-}
-
-#animacioncss {
-  width: 130px;
-  margin: 0 auto;
-}
-
-#animacioncss svg {
-  width: 100%;
-}
-
-#animacioncss.fin .path-1 {
-  stroke-dashoffset: 0;
-}
-
-.path {
-  fill: none;
-  stroke-width: 18px;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-.path-1 {
-  stroke-dasharray: 1850 2000;
-  stroke-dashoffset: 1851;
-  transition: 5s linear;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 /* -----Referencias------- */
